@@ -13,7 +13,7 @@ variable "common_tags" {
     "AssetID"       = "2560"
     "AssetName"     = "Insfrastructure"
     "Environment"   = "dev"
-    "Project"       = "alpha"
+    "Project"       = "nes"
     "CreateBy"      = "Terraform"
     "cloudProvider" = "aws"
   }
