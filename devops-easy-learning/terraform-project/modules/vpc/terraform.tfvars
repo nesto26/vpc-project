@@ -2,8 +2,8 @@
 common_tags = {
   "AssetID"       = "2560"
   "AssetName"     = "Insfrastructure"
-  "Environment"   = "dev-tia"
-  "Project"       = "alpha"
+  "Environment"   = "dev"
+  "Project"       = "nes"
   "CreateBy"      = "Terraform"
   "cloudProvider" = "aws"
 }
