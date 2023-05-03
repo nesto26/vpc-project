@@ -67,9 +67,6 @@ module "rds_postgresql" {
   deletion_protection     = local.deletion_protection
   storage_encrypted       = local.storage_encrypted
   storage_type            = local.storage_type
-
-  username     =data.aws_secretsmanager_secret.rds_username
-  password     = data.aws_secretsmanager_secret.rds_password.id
   allocated_storage = local.allocated_storage.id
   max_allocated_storage = local.max_allocated_storage
   vpc_id            = aws_vpc.main.id
