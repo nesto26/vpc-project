@@ -25,9 +25,9 @@ locals {
   aws_region    = "us-east-1"
   instance_type = "t2.micro"
   key_name      = "WinKey"
-   multi_az               = local.multi_az
-  publicly_accessible     = local.multi_az
-  deletion_protection     = local.multi_az
+   multi_az               = false
+  publicly_accessible     = false
+  deletion_protection     = false
   storage_encrypted       = true
   storage_type            = "gp2"
 
